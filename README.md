@@ -1,6 +1,6 @@
-### YelpCamp website
+# YelpCamp website
 
-### Installation
+## Installation
 
-## Install Dependencies
-`npm install `
+### Install Dependencies
+`$ npm install `
