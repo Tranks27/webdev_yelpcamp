@@ -106,6 +106,7 @@ app.use((err, req, res, next) =>{
     res.status(statusCode).render('error', { err }); //send to error page
 });
 
-app.listen(3000, () => {
-    console.log("SERVER STARTED on PORT 3000....");
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log(`SERVER STARTED on port ${port}....`);
 });
